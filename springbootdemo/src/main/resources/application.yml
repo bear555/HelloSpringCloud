@@ -1,0 +1,43 @@
+#Mybatis
+mybatis:
+    mapper-locations: classpath:/mapper/*.xml
+    type-aliases-package: com.springboot
+
+
+# DATASOURCE
+spring:
+    application:
+        name: eureka-client-user
+    datasource:
+        url: jdbc:mysql://localhost/java_web?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    mail:
+        host: smtp.163.com
+        username: 13060561567@163.com
+        password: x85616208
+        default-encoding: UTF-8
+        properties:
+            from: 13060561567@163.com
+
+server:
+    port: 8003
+
+
+#eureka
+eureka:
+    client: #将客户端注册进eureka的注册中心
+        service-url:
+            defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+    instance:
+#        instance-id: hellospringcloud-user8003
+        prefer-ip-address: true     #访问路径可以显示IP地址
+        hostname: localhost
+
+#info
+info:
+    app.name: chenweixiong-hellospringcloud
+    company.name: weixiong.online
+    build.artifactId: $project.artifactId$
+    build.version: $project.version$

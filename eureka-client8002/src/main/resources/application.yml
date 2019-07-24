@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: euraka-client
+#  datasource:
+#    url: jdbc:mysql://localhost/java_web?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8002
+
+#eureka
+eureka:
+  client: #将客户端注册进eureka的注册中心
+    service-url:
+      defaultZone: http://localhost:7001/eureka
