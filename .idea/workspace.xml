@@ -2,30 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20bb9e67-b7b4-45a3-82e0-390ff1054dfb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../25815-chenweixiong-springboot/src/main/java/chenweixiongspringboot/controller/HelloSpringBootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../25815-chenweixiong-springboot/src/main/java/chenweixiongspringboot/controller/HelloSpringBootController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloSpring/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloSpring/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloSpring/HelloSpring-admin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloSpring/HelloSpring-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloSpring/HelloSpring1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloSpring/HelloSpring1/src/main/java/MavenTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloSpring/src/main/java/MavenTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/controller/UserController_consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/service/IUserSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user-hystrix8008/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/java/Mapper/OrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/java/domain/Items.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/java/domain/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/java/domain/OrderDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/java/domain/OrdersExt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/java/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/resources/Mapper/OrderMapper" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/resources/config/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/resources/config/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/main/resources/config/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/test/java/OrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestSpring/25815chenweixiong/mybatis/src/test/java/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloSpringCloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-user8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-user8004/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/UserController_consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/UserController_consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client8002/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client8002/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client8002/src/main/java/hellospringcloud/EurekaClient8002Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client8002/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client8002/src/test/java/hellospringcloud/EurekaClient8002ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellospringcloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellospringcloud-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/entities/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/PrivoderDept8005Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/dao/DeptDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/service/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/service/impl/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/resources/mybatis/mapper/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/main/resources/mybatis/mybatis.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privoder-dept8005/src/test/java/hellospringcloud/PrivoderDept8005ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/TestspringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/configBean/HelloSpringboot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/configBean/helloSpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testspring/src/test/java/hellospringcloud/TestspringApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,6 +70,10 @@
     <ignored path="$PROJECT_DIR$/eureka-server7002/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server7003/target/" />
     <ignored path="$PROJECT_DIR$/consumer-user8004/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-user8006-feign/target/" />
+    <ignored path="$PROJECT_DIR$/provider-user-hystrix8007/target/" />
+    <ignored path="$PROJECT_DIR$/tets/target/" />
+    <ignored path="$PROJECT_DIR$/provider-user-hystrix8008/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +103,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/consumer-user8004/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientServiceFallbackFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -117,30 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HelloSpringCloud-dept-provider-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/hellospringcloud-api/pom.xml" />
-        <option value="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/api/entities/Dept.java" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/src/main/java/hellospringcloud/providerdept8001/service/DeptService.java" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/src/main/java/hellospringcloud/providerdept8001/dao/DeptDao.java" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/src/main/java/hellospringcloud/providerdept8001/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/src/main/java/hellospringcloud/dao/DeptDao.java" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/src/main/java/hellospringcloud/service/impl/DeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hellospringcloud-provider-dept-8005/src/main/java/hellospringcloud/service/impl/DeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/configBean/helloSpringConfig.java" />
-        <option value="$PROJECT_DIR$/testspring/src/test/java/hellospringcloud/TestspringApplicationTests.java" />
-        <option value="$PROJECT_DIR$/testspring/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/testspring/pom.xml" />
-        <option value="$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/configBean/HelloSpringboot.java" />
-        <option value="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-server7001/src/main/java/hellospringcloud/EurekaServer7001Application.java" />
-        <option value="$PROJECT_DIR$/zuul/src/main/java/hellospringcloud/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zuul8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zuul8001/src/main/java/hellospringcloud/Zuul8001Application.java" />
-        <option value="$PROJECT_DIR$/eureka-client8002/pom.xml" />
         <option value="$PROJECT_DIR$/privoder-dept8005/src/main/resources/mybatis/mapper/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/dao/DeptDao.java" />
         <option value="$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/service/DeptService.java" />
@@ -163,11 +168,35 @@
         <option value="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/cfgbean/ConfigBean.java" />
         <option value="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/UserController.java" />
         <option value="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/ConsumerUserController.java" />
-        <option value="$PROJECT_DIR$/springbootdemo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/ConsumerUser8004Application.java" />
-        <option value="$PROJECT_DIR$/consumer-user8004/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/UserController_consumer.java" />
         <option value="$PROJECT_DIR$/consumer-user8004/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-user8004/pom.xml" />
+        <option value="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/entities/Dept.java" />
+        <option value="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/entities/User.java" />
+        <option value="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/UserClientService.java" />
+        <option value="$PROJECT_DIR$/consumer-user8006-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user8006-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/FeignApplication.java" />
+        <option value="$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/controller/UserController_consumer.java" />
+        <option value="$PROJECT_DIR$/springbootdemo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/service/IUserSevice.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/ProviderUserHystrix8007Application.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8007/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8008/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8008/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/provider_user_hystrix8008.java" />
+        <option value="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/Provider_user_hystrix8008.java" />
+        <option value="$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/UserController_consumer.java" />
+        <option value="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientService.java" />
+        <option value="$PROJECT_DIR$/hellospringcloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientServiceFallbackFactory.java" />
       </list>
     </option>
   </component>
@@ -205,6 +234,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,37 +242,10 @@
               <item name="HelloSpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloSpringCloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HelloSpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +258,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/privoder-dept8005/src/main/resources/mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -264,18 +267,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\git_worksapce\HelloSpringCloud\privoder-dept8005\src\main\resources\mybatis" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.springboot" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HelloSpringCloud\HelloSpringCloud\provider-user-hystrix8008\src\main\java\hellospringcloud" />
+      <recent name="D:\HelloSpringCloud\HelloSpringCloud\provider-user-hystrix8008\src\main\resources" />
+      <recent name="D:\HelloSpringCloud\HelloSpringCloud\provider-user-hystrix8007\src\main\resources\mapper" />
+      <recent name="D:\HelloSpringCloud\HelloSpringCloud\consumer-user8006-feign\src\main\java\hellospringcloud" />
       <recent name="D:\git_worksapce\HelloSpringCloud\privoder-dept8005\src\main\resources\mybatis" />
-      <recent name="D:\git_worksapce\HelloSpringCloud\hellospringcloud-provider-dept-8001\src\main\java\hellospringcloud\providerdept8001" />
-      <recent name="D:\git_worksapce\HelloSpringCloud\hellospringcloud-provider-dept-8001\src\main\resources\mybatis" />
-      <recent name="D:\git_worksapce\HelloSpringCloud\hellospringcloud-provider-dept-8001\src\main\resources" />
-      <recent name="D:\git_worksapce\HelloSpringCloud\HelloSpringCloud-dept-provider-8001\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_worksapce\HelloSpringCloud\privoder-dept8005\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -300,7 +303,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.27434313" />
+    <option name="contentProportion" value="0.2565688" />
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerUser8004Application">
     <configuration name="MailTest.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -339,7 +342,7 @@
       <module name="testspring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hellospringcloud.*" />
+          <option name="PATTERN" value="hellospringcloud.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,6 +364,13 @@
     <configuration name="ConsumerUser8004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-user8004" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.ConsumerUser8004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-user-hystrix8008" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.Provider_user_hystrix8008" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -407,14 +417,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HellospringcloudApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-user8006-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.FeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HellospringcloudApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hellospringcloud-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hellospringcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.HellospringcloudApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -427,19 +438,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HellospringcloudProviderDept8001Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hellospringcloud-provider-dept-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hellospringcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.HellospringcloudProviderDept8001Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HellospringcloudProviderDept8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hellospringcloud-provider-dept-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.providerdept8001.HellospringcloudProviderDept8001Application" />
@@ -447,9 +445,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivoderDept8005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="privoder-dept8005" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.PrivoderDept8005Application" />
+    <configuration name="ProviderUserHystrix8007Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-user-hystrix8007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.ProviderUserHystrix8007Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -467,6 +465,13 @@
     <configuration name="TestspringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="testspring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.TestspringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TetsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tets" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hellospringcloud.TetsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -491,19 +496,19 @@
       <item itemvalue="Spring Boot.TestspringApplication" />
       <item itemvalue="Spring Boot.Zuul8001Application" />
       <item itemvalue="Spring Boot.EurekaClient8002Application" />
-      <item itemvalue="Spring Boot.PrivoderDept8005Application" />
       <item itemvalue="Spring Boot.EurekaServer7002Application" />
       <item itemvalue="Spring Boot.EurekaServer7003Application" />
       <item itemvalue="Spring Boot.SpringbootdemoApplication" />
       <item itemvalue="Spring Boot.ConsumerUser8004Application" />
-      <item itemvalue="Spring Boot.HellospringcloudProviderDept8001Application (1)" />
+      <item itemvalue="Spring Boot.FeignApplication" />
       <item itemvalue="Spring Boot.HellospringcloudApiApplication (1)" />
+      <item itemvalue="Spring Boot.ProviderUserHystrix8007Application" />
+      <item itemvalue="Spring Boot.TetsApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestspringApplicationTests.t1" />
-        <item itemvalue="Spring Boot.HellospringcloudProviderDept8001Application (1)" />
-        <item itemvalue="Spring Boot.HellospringcloudApiApplication (1)" />
         <item itemvalue="JUnit.MailTest.sendMail" />
         <item itemvalue="JUnit.SpringbootdemoApplicationTests.testHelloWordController" />
       </list>
@@ -525,6 +530,9 @@
       <workItem from="1563928873308" duration="828000" />
       <workItem from="1563930530860" duration="24388000" />
       <workItem from="1563978769831" duration="692000" />
+      <workItem from="1563979718970" duration="159000" />
+      <workItem from="1563979981007" duration="80000" />
+      <workItem from="1564015281272" duration="15434000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud">
       <created>1563978886963</created>
@@ -554,12 +562,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68513000" />
+    <option name="totallyTimeSpent" value="84186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,7 +577,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.43442622" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.36393443" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,14 +590,14 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.44262296" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.3065574" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="16" visible="true" weight="0.3065574" />
       <window_info anchor="bottom" id="MyBatis Log" order="17" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.36393443" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.352459" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49747476" weight="0.24810892" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49747476" weight="0.2700454" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" sideWeight="0.49747476" weight="0.32980332" />
@@ -604,6 +612,11 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/Hello-Word" />
+      <path value="$PROJECT_DIR$/HelloSpringCloud" />
+    </ignored-roots>
     <MESSAGE value="springcloud" />
     <option name="LAST_COMMIT_MESSAGE" value="springcloud" />
   </component>
@@ -627,257 +640,10 @@
     <SUITE FILE_PATH="coverage/HelloSpringCloud$Provider8001Application.ic" NAME="Provider8001Application Coverage Results" MODIFIED="1563866588277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/TestspringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testspring/src/test/java/hellospringcloud/TestspringApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testspring/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/configBean/helloSpringConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloSpringCloud.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testspring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testspring/src/main/java/hellospringcloud/configBean/HelloSpringboot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/eureka-server-7001/src/main/java/eurekaserver/eurekaserver/EurekaServerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/zuul/zuul.iml" />
-    <entry file="jar://D:/apache-maven-3.6.1/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.2.RELEASE/spring-cloud-netflix-zuul-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/EnableZuulProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul8001/src/main/java/hellospringcloud/ZuulApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zuul8001/src/main/java/hellospringcloud/Zuul8001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellospringcloud-provider-dept-8005/src/main/java/hellospringcloud/controller/DeptController.java" />
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/dao/DeptDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/resources/mybatis/mapper/DeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/service/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/resources/mybatis/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/sevice/IUserSevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/sevice/impl/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client8002/src/main/java/hellospringcloud/EurekaClient8002Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client8002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/PrivoderDept8005Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/privoder-dept8005/src/main/java/hellospringcloud/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server7002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server7001/src/main/java/hellospringcloud/EurekaServer7001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server7002/src/main/java/hellospringcloud/EurekaServer7002Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server7003/src/main/java/hellospringcloud/EurekaServer7003Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server7003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="14" column="88" lean-forward="true" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server7002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/SpringbootdemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellospringcloud-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -891,24 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springbootdemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="43" column="21" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server7001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="18" column="88" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-user8004/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -926,62 +678,357 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/UserController_consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#830#860#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/ConsumerUser8004Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/cfgbean/ConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="31" column="126" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="126" />
+        <state relative-caret-position="338">
+          <caret line="50" lean-forward="true" selection-start-line="4" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/sevice/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/HellospringcloudApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer-user8004/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="120" lean-forward="true" selection-start-line="4" selection-end-line="7" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8006-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/cfgbean/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellospringcloud-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8006-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="28" selection-start-line="22" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/sevice/IUserSevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/test/java/hellospringcloud/ProviderUserHystrix8007ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/SpringbootdemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8004/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <caret line="40" column="21" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tets/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tets/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tets/src/main/java/hellospringcloud/TetsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/service/IUserSevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/ProviderUserHystrix8007Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootdemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="149" column="19" lean-forward="true" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/main/java/hellospringcloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/service/IUserSevice.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8007/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="64" column="21" selection-start-line="59" selection-start-column="7" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/ConsumerUser8004Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/Provider_user_hystrix8008.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user-hystrix8008/src/main/java/hellospringcloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8004/src/main/java/hellospringcloud/controller/UserController_consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/controller/UserController_consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/FeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="740" column="6" selection-start-line="740" selection-start-column="6" selection-end-line="740" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellospringcloud-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="9" />
         </state>
       </provider>
     </entry>

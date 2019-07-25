@@ -2,6 +2,7 @@ package hellospringcloud.controller;
 
 import com.springboot.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -14,7 +15,7 @@ public class UserController_consumer {
 //    private static final String REST_URL_PREFIX = "http://localhost:8003";
 
     //寻找调用生产者的微服务名字
-    private static final String REST_URL_PREFIX="http://eureka-client-user";
+    private static final String REST_URL_PREFIX="http://EUREKA-CLIENT-USER";
 
 //    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
@@ -29,6 +30,11 @@ public class UserController_consumer {
     @RequestMapping(value="/consumer/user/list")
     public List<User> list(){
         return restTemplate.getForObject(REST_URL_PREFIX +"/user/list",List.class);
+    }
+
+    @RequestMapping(value="/consumer/user/get/{id}")
+    public User getUser(@PathVariable("id") int id){
+        return restTemplate.getForObject(REST_URL_PREFIX +"/user/get/"+id,User.class);
     }
 
 

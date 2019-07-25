@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>HelloSpringCloud</groupId>
-    <artifactId>consumer-user8004</artifactId>
+    <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>consumer-user8004</name>
+    <name>demo</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -20,26 +20,46 @@
     </properties>
 
     <dependencies>
-
+        <!--        引入api公共模块-->
+        <dependency>
+            <groupId>HelloSpringCloud</groupId>
+            <artifactId>hellospringcloud-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-
-        <!--   引入自定义 user 的start-->
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>springbootdemo</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-<!--       Ribbon相关-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        <!--        集成mybaits-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -53,8 +73,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-
 
     <build>
         <plugins>
