@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20bb9e67-b7b4-45a3-82e0-390ff1054dfb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-user8006-feign/src/main/java/hellospringcloud/FeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospringcloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellospringcloud-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientServiceFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hellospringcloud-api/src/main/java/hellospringcloud/service/UserClientServiceFallbackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user-hystrix8008/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user-hystrix8008/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user-hystrix8008/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user-hystrix8008/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootdemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/SpringbootdemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="216">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -110,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/privoder-dept8005/pom.xml" />
         <option value="$PROJECT_DIR$/privoder-dept8005/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-server7001/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client8002/src/main/java/hellospringcloud/EurekaClient8002Application.java" />
@@ -161,6 +158,7 @@
         <option value="$PROJECT_DIR$/provider-user-hystrix8008/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hellospringcloud-api/pom.xml" />
         <option value="$PROJECT_DIR$/zuul8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/application.yml" />
       </list>
     </option>
   </component>
@@ -193,7 +191,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="1386" />
@@ -522,7 +520,7 @@
       <workItem from="1563979718970" duration="159000" />
       <workItem from="1563979981007" duration="80000" />
       <workItem from="1564015281272" duration="15659000" />
-      <workItem from="1564101717148" duration="7487000" />
+      <workItem from="1564101717148" duration="8226000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud">
       <created>1563978886963</created>
@@ -552,13 +550,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91898000" />
+    <option name="totallyTimeSpent" value="92637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +582,7 @@
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.3065574" />
       <window_info anchor="bottom" id="MyBatis Log" order="17" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.48360655" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.18688525" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,13 +629,6 @@
     <SUITE FILE_PATH="coverage/HelloSpringCloud$Provider8001Application.ic" NAME="Provider8001Application Coverage Results" MODIFIED="1563866588277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="50" lean-forward="true" selection-start-line="4" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/sevice/impl/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -913,8 +904,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springbootdemo/src/main/java/com/springboot/SpringbootdemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="216">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
