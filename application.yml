@@ -1,17 +1,17 @@
 ﻿spring:
-	profiles:
-		active:
-			- dev
+  profiles:
+    active:
+    - dev
 ------
 spring:
-	profiles: dev #开发环境
-	application:
-		name: hellospringcloud-config-dev
+  profiles: dev #开发环境
+  application:
+    name: hellospringcloud-config-dev
 
 ------
 spring:
-	profiles: test   #测试环境
-	application:
-		name: hellospringcloud-config-test
+  profiles: test   #测试环境
+  application:
+    name: hellospringcloud-config-test
 
 #保存为utf-8
