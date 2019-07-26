@@ -1,5 +1,21 @@
 spring:
   application:
-    name: zuul
+    name: hellospringcloud-zuul-gateway
 server:
   port: 8001
+
+eureka:
+  client: #注册进注册中新
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-8001.com
+    prefer-ip-address: true   #显示ip
+
+#zuul配置
+#zuul:
+##  ignored-services: eureka-client-user
+#  ignored-services: "*"
+#  routes:
+#    myuser.serviceId: eureka-client-user
+#    myuser.path: /myuser/**

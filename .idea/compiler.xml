@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springbootdemo" />
-        <module name="provider-user-hystrix8008" />
-        <module name="eureka-server7003" />
-        <module name="eureka-server7002" />
-        <module name="eureka-server7001" />
         <module name="zuul" />
+        <module name="eureka-server7003" />
         <module name="zuul8001" />
         <module name="consumer-user8006-feign" />
         <module name="HelloSpringCloud" />
-        <module name="consumer-user8004" />
         <module name="hellospringcloud-api" />
+        <module name="provider-user-hystrix8008" />
+        <module name="eureka-server7002" />
+        <module name="eureka-server7001" />
         <module name="eureka-client8002" />
+        <module name="consumer-user8004" />
+        <module name="consumer-user8009-hystrix-dashboard" />
+        <module name="provider-user8003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +41,7 @@
       <module name="consul-client" options="-parameters" />
       <module name="consumer-user8004" options="-parameters" />
       <module name="consumer-user8006-feign" options="-parameters" />
+      <module name="consumer-user8009-hystrix-dashboard" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client8002" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
@@ -51,7 +53,7 @@
       <module name="privoder-dept8005" options="-parameters" />
       <module name="provider-user-hystrix8007" options="-parameters" />
       <module name="provider-user-hystrix8008" options="-parameters" />
-      <module name="springbootdemo" options="-parameters" />
+      <module name="provider-user8003" options="-parameters" />
       <module name="testspring" options="-parameters" />
       <module name="tets" options="-parameters" />
       <module name="zuul" options="-parameters" />
